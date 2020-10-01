@@ -6,5 +6,6 @@ namespace sistema.controller
 {
     class ClienteController
     {
+
     }
 }

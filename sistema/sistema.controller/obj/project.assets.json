@@ -179,28 +179,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Vitti\\.nuget\\packages\\": {},
+    "C:\\Users\\João Paulo Antunes\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vitti\\Desktop\\facul\\poo\\sistema\\sistema.controller\\sistema.controller.csproj",
+      "projectUniqueName": "C:\\Users\\João Paulo Antunes\\source\\repos\\SistemaLoja\\sistema\\sistema.controller\\sistema.controller.csproj",
       "projectName": "sistema.controller",
-      "projectPath": "C:\\Users\\Vitti\\Desktop\\facul\\poo\\sistema\\sistema.controller\\sistema.controller.csproj",
-      "packagesPath": "C:\\Users\\Vitti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vitti\\Desktop\\facul\\poo\\sistema\\sistema.controller\\obj\\",
+      "projectPath": "C:\\Users\\João Paulo Antunes\\source\\repos\\SistemaLoja\\sistema\\sistema.controller\\sistema.controller.csproj",
+      "packagesPath": "C:\\Users\\João Paulo Antunes\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\João Paulo Antunes\\source\\repos\\SistemaLoja\\sistema\\sistema.controller\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Vitti\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\João Paulo Antunes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
