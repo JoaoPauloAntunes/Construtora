@@ -16,5 +16,12 @@ namespace sistema
         {
             InitializeComponent();
         }
+
+        public void atualiza() { }
+        public void buscaVenda(){ }
+        public void buscaProduto() { }
+        public void buscaCliente() { }
+        public void buscaFuncionario() { }
+
     }
 }
