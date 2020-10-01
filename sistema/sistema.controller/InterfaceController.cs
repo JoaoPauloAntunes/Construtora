@@ -4,7 +4,10 @@ using System.Text;
 
 namespace sistema.controller
 {
-    interface InterfaceController
+    public interface InterfaceController
     {
+         void Cadastrar();
+         void remove();
+         void atualiza();
     }
 }

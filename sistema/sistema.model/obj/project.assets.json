@@ -201,11 +201,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vitti\\Desktop\\facul\\poo\\sistema\\sistema.model\\sistema.model.csproj",
+      "projectUniqueName": "C:\\Users\\Vitti\\Desktop\\projetoLoja\\SistemaLoja\\sistema\\sistema.model\\sistema.model.csproj",
       "projectName": "sistema.model",
-      "projectPath": "C:\\Users\\Vitti\\Desktop\\facul\\poo\\sistema\\sistema.model\\sistema.model.csproj",
+      "projectPath": "C:\\Users\\Vitti\\Desktop\\projetoLoja\\SistemaLoja\\sistema\\sistema.model\\sistema.model.csproj",
       "packagesPath": "C:\\Users\\Vitti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vitti\\Desktop\\facul\\poo\\sistema\\sistema.model\\obj\\",
+      "outputPath": "C:\\Users\\Vitti\\Desktop\\projetoLoja\\SistemaLoja\\sistema\\sistema.model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -222,8 +222,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\Vitti\\Desktop\\facul\\poo\\sistema\\sistema.controller\\sistema.controller.csproj": {
-              "projectPath": "C:\\Users\\Vitti\\Desktop\\facul\\poo\\sistema\\sistema.controller\\sistema.controller.csproj"
+            "C:\\Users\\Vitti\\Desktop\\projetoLoja\\SistemaLoja\\sistema\\sistema.controller\\sistema.controller.csproj": {
+              "projectPath": "C:\\Users\\Vitti\\Desktop\\projetoLoja\\SistemaLoja\\sistema\\sistema.controller\\sistema.controller.csproj"
             }
           }
         }

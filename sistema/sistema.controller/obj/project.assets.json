@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vitti\\Desktop\\facul\\poo\\sistema\\sistema.controller\\sistema.controller.csproj",
+      "projectUniqueName": "C:\\Users\\Vitti\\Desktop\\projetoLoja\\SistemaLoja\\sistema\\sistema.controller\\sistema.controller.csproj",
       "projectName": "sistema.controller",
-      "projectPath": "C:\\Users\\Vitti\\Desktop\\facul\\poo\\sistema\\sistema.controller\\sistema.controller.csproj",
+      "projectPath": "C:\\Users\\Vitti\\Desktop\\projetoLoja\\SistemaLoja\\sistema\\sistema.controller\\sistema.controller.csproj",
       "packagesPath": "C:\\Users\\Vitti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vitti\\Desktop\\facul\\poo\\sistema\\sistema.controller\\obj\\",
+      "outputPath": "C:\\Users\\Vitti\\Desktop\\projetoLoja\\SistemaLoja\\sistema\\sistema.controller\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

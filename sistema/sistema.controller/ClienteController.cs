@@ -4,7 +4,21 @@ using System.Text;
 
 namespace sistema.controller
 {
-    class ClienteController
+    class ClienteController : InterfaceController
     {
+        public void atualiza()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Cadastrar()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void remove()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
