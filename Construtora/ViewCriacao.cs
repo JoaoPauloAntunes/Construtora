@@ -20,11 +20,26 @@ namespace Construtora
             comboBoxCorPiso.Items.AddRange(cores);
             comboBoxCorParede.Items.AddRange(cores);
 
+
+
             string[] marcasCano = { "Tigre", "Amanco", "Krona", "Nicoll | Provinil", "Cardinali", "Multilit", "Barbi", "Ferroplast", "Adequa" };
             comboBoxMarcaCano.Items.AddRange(marcasCano);
 
+
+
             string[] materiaisPorta = { "madeira", "aço", "alumínio", "PVC", "plástico", "vidro" };
             comboBoxMaterialPorta.Items.AddRange(materiaisPorta);
+
+
+
+            string[] acabamentoParede = { "massa corrida ", "gesso" };
+            comboBox6.Items.AddRange(acabamentoParede);
+            comboBoxCorPiso.SelectedIndex = 0;
+            comboBox1.SelectedIndex = 0;
+            comboBox6.SelectedIndex = 0;
+            comboBoxCorParede.SelectedIndex = 0;
+            comboBoxMarcaCano.SelectedIndex = 0;
+            comboBoxMaterialPorta.SelectedIndex = 0;
         }
 
         private void Button1_Click(object sender, EventArgs e)
