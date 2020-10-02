@@ -7,44 +7,43 @@ namespace Controller
 {
     class ApartamentoController : IBuilder
     {
+        ImovelModel imovelPadrao = new ImovelModel();
         public void ConstrucaoBanheiros()
         {
-            throw new NotImplementedException();
+            imovelPadrao.Add("banheiro sem azuleijos");
         }
 
         public void ConstrucaoComodos()
         {
-            throw new NotImplementedException();
         }
 
         public void ConstrucaoEncanamento()
         {
-            throw new NotImplementedException();
+            imovelPadrao.Add("Canos simples");
         }
 
         public void FinalizacaoOperacoes()
         {
-            throw new NotImplementedException();
+            imovelPadrao.Add("Apartamento finalizado!");
         }
 
         public ImovelModel GetImovel()
         {
-            throw new NotImplementedException();
+            return imovelPadrao;
         }
 
         public void InicializacaoOperacoes()
         {
-            throw new NotImplementedException();
         }
 
         public void PintandoCasa()
         {
-            throw new NotImplementedException();
+            imovelPadrao.Add("Cor marrom");
         }
 
         public IBuilder ShallowCopy()
         {
-            throw new NotImplementedException();
+            return (ApartamentoController)this.MemberwiseClone();
         }
     }
 }
