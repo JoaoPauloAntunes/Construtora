@@ -37,7 +37,6 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Name = "FuncionarioView";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.FuncionarioView_Load);
             this.ResumeLayout(false);
 
         }
