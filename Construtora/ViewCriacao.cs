@@ -22,6 +22,9 @@ namespace Construtora
 
             string[] marcasCano = { "Tigre", "Amanco", "Krona", "Nicoll | Provinil", "Cardinali", "Multilit", "Barbi", "Ferroplast", "Adequa" };
             comboBoxMarcaCano.Items.AddRange(marcasCano);
+
+            string[] materiaisPorta = { "madeira", "aço", "alumínio", "PVC", "plástico", "vidro" };
+            comboBoxMaterialPorta.Items.AddRange(materiaisPorta);
         }
 
         private void Button1_Click(object sender, EventArgs e)
