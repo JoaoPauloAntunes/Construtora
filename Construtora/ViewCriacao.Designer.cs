@@ -50,14 +50,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.comboBox9 = new System.Windows.Forms.ComboBox();
-            this.comboBoxCaixaDaqua = new System.Windows.Forms.ComboBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(381, 216);
+            this.button1.Location = new System.Drawing.Point(375, 181);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(123, 32);
             this.button1.TabIndex = 49;
@@ -103,7 +102,7 @@
             this.comboBoxMaterialPorta.Items.AddRange(new object[] {
             "casa",
             "apartamento"});
-            this.comboBoxMaterialPorta.Location = new System.Drawing.Point(383, 32);
+            this.comboBoxMaterialPorta.Location = new System.Drawing.Point(375, 32);
             this.comboBoxMaterialPorta.Name = "comboBoxMaterialPorta";
             this.comboBoxMaterialPorta.Size = new System.Drawing.Size(121, 21);
             this.comboBoxMaterialPorta.TabIndex = 42;
@@ -171,15 +170,14 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(386, 136);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(74, 13);
+            this.label10.Size = new System.Drawing.Size(0, 13);
             this.label10.TabIndex = 35;
-            this.label10.Text = "Caixa d\'água?";
             this.label10.Click += new System.EventHandler(this.Label10_Click);
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(386, 16);
+            this.label8.Location = new System.Drawing.Point(378, 16);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(71, 13);
             this.label8.TabIndex = 33;
@@ -268,52 +266,36 @@
             this.comboBox1.TabIndex = 25;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.ComboBox1_SelectedIndexChanged);
             // 
-            // label9
+            // checkBox1
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(384, 68);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(123, 13);
-            this.label9.TabIndex = 34;
-            this.label9.Text = "Encanamento para gas?";
-            this.label9.Click += new System.EventHandler(this.Label9_Click);
+            this.checkBox1.Location = new System.Drawing.Point(375, 136);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(93, 17);
+            this.checkBox1.TabIndex = 0;
+            this.checkBox1.Text = "Caixa d\'água?";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // comboBox9
+            // checkBox2
             // 
-            this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.Items.AddRange(new object[] {
-            "Não",
-            "Sim"});
-            this.comboBox9.Location = new System.Drawing.Point(383, 88);
-            this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(121, 21);
-            this.comboBox9.TabIndex = 43;
-            this.comboBox9.SelectedIndexChanged += new System.EventHandler(this.ComboBox9_SelectedIndexChanged);
-            // 
-            // comboBoxCaixaDaqua
-            // 
-            this.comboBoxCaixaDaqua.FormattingEnabled = true;
-            this.comboBoxCaixaDaqua.Items.AddRange(new object[] {
-            "Não",
-            "Sim"});
-            this.comboBoxCaixaDaqua.Location = new System.Drawing.Point(383, 154);
-            this.comboBoxCaixaDaqua.Name = "comboBoxCaixaDaqua";
-            this.comboBoxCaixaDaqua.Size = new System.Drawing.Size(121, 21);
-            this.comboBoxCaixaDaqua.TabIndex = 44;
-            this.comboBoxCaixaDaqua.SelectedIndexChanged += new System.EventHandler(this.ComboBox10_SelectedIndexChanged);
+            this.checkBox2.Location = new System.Drawing.Point(375, 91);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(142, 17);
+            this.checkBox2.TabIndex = 0;
+            this.checkBox2.Text = "Encanamento para gas?";
+            this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // ViewCriacao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(559, 431);
+            this.Controls.Add(this.checkBox2);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.comboBoxCaixaDaqua);
-            this.Controls.Add(this.comboBox9);
             this.Controls.Add(this.comboBoxMaterialPorta);
             this.Controls.Add(this.comboBoxMarcaCano);
             this.Controls.Add(this.comboBox6);
@@ -322,7 +304,6 @@
             this.Controls.Add(this.comboBoxCorParede);
             this.Controls.Add(this.comboBoxCorPiso);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -363,9 +344,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox comboBoxCorPiso;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.ComboBox comboBox9;
-        private System.Windows.Forms.ComboBox comboBoxCaixaDaqua;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox checkBox2;
     }
 }
 
