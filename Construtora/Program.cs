@@ -16,7 +16,9 @@ namespace Construtora
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ViewCriacao());
+
+            ViewCriacao vc = new ViewCriacao();
+            Application.Run(vc);
         }
     }
 }

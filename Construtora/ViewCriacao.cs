@@ -15,6 +15,13 @@ namespace Construtora
         public ViewCriacao()
         {
             InitializeComponent();
+
+            string[] cores = { "vermelho", "laranja", "amarelo", "verde", "ciano", "azul", "violeta" };
+            comboBoxCorPiso.Items.AddRange(cores);
+            comboBoxCorParede.Items.AddRange(cores);
+
+            string[] marcasCano = { "Tigre", "Amanco", "Krona", "Nicoll | Provinil", "Cardinali", "Multilit", "Barbi", "Ferroplast", "Adequa" };
+            comboBoxMarcaCano.Items.AddRange(marcasCano);
         }
 
         private void Button1_Click(object sender, EventArgs e)
