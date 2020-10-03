@@ -8,23 +8,40 @@ namespace Controller
     class ApartamentoController : IBuilder
     {
         ImovelModel imovelPadrao = new ImovelModel();
-        public void ConstrucaoBanheiros()
+        ApartamentoModel apartamentoPadrao = new ApartamentoModel();
+
+        public void ColocarPorta()
         {
-            imovelPadrao.Add("banheiro sem azuleijos");
+            apartamentoPadrao.MaterialPorta = "madeira";
+            imovelPadrao.Add(apartamentoPadrao.MaterialPorta);
+
         }
 
-        public void ConstrucaoComodos()
+        public void ConstrucaoBanheiros()
         {
+            apartamentoPadrao.CorPiso = "vermelho";
+            apartamentoPadrao.CorParede = "vermelho";
+            apartamentoPadrao.AcessorioBanheiro = false;
+            imovelPadrao.Add(apartamentoPadrao.CorPiso);
+            imovelPadrao.Add(apartamentoPadrao.CorParede);
+            imovelPadrao.Add(apartamentoPadrao.AcessorioBanheiro ? "possui acessório no banheiro" : "não possui acessório no banheiro");
+        }
+
+        public void ConstrucaoCaixaDaAgua()
+        {
+            imovelPadrao.Add("não possui caixa d'água");
         }
 
         public void ConstrucaoEncanamento()
         {
-            imovelPadrao.Add("Canos simples");
+            apartamentoPadrao.IsEncanamentoGas = false;
+            imovelPadrao.Add(apartamentoPadrao.IsEncanamentoGas ? "possui encanamento com gás" : "não possui encanamento com gás");
+            imovelPadrao.Add("não possui encamento");
         }
 
         public void FinalizacaoOperacoes()
         {
-            imovelPadrao.Add("Apartamento finalizado!");
+            imovelPadrao.Add("imovelPadrao finalizada");
         }
 
         public ImovelModel GetImovel()
@@ -34,16 +51,18 @@ namespace Controller
 
         public void InicializacaoOperacoes()
         {
+            imovelPadrao.Add("Ajustando o terreno e construindo muros");
         }
 
         public void PintandoCasa()
         {
-            imovelPadrao.Add("Cor marrom");
+            apartamentoPadrao.CorParede = "vermelho";
+            imovelPadrao.Add(apartamentoPadrao.CorParede);
         }
 
         public IBuilder ShallowCopy()
         {
-            return (ApartamentoController)this.MemberwiseClone();
+            return (CasaController)this.MemberwiseClone();
         }
     }
 }

@@ -9,9 +9,10 @@ namespace Controller
     {
         ImovelModel GetImovel();
         void InicializacaoOperacoes();
-        void ConstrucaoComodos();
         void ConstrucaoBanheiros();
         void ConstrucaoEncanamento();
+        void ConstrucaoCaixaDaAgua();
+        void ColocarPorta();
         void PintandoCasa();
         void FinalizacaoOperacoes();
         IBuilder ShallowCopy();

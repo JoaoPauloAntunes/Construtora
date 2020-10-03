@@ -11,9 +11,10 @@ namespace Controller
         {
             this.builder = builder;
             builder.InicializacaoOperacoes();
-            builder.ConstrucaoComodos();
             builder.ConstrucaoBanheiros();
             builder.ConstrucaoEncanamento();
+            builder.ConstrucaoCaixaDaAgua();
+            builder.ColocarPorta();
             builder.PintandoCasa();
             builder.FinalizacaoOperacoes();
         }
