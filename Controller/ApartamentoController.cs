@@ -5,7 +5,7 @@ using Model;
 
 namespace Controller
 {
-    class ApartamentoController : IBuilder
+    public class ApartamentoController : IBuilder
     {
         ImovelModel imovelPadrao = new ImovelModel();
         ApartamentoModel apartamentoPadrao = new ApartamentoModel();

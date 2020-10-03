@@ -40,12 +40,25 @@ namespace Construtora
             comboBoxCorParede.SelectedIndex = 0;
             comboBoxMarcaCano.SelectedIndex = 0;
             comboBoxMaterialPorta.SelectedIndex = 0;
+
+            ChefeObraController pedreiro = new ChefeObraController();
+
+            IBuilder casa1 = new CasaController();
+            IBuilder ap1 = new ApartamentoController();
+
+            pedreiro.Construct(casa1);
+            casa1.GetImovel().Show();
+
+
+            pedreiro.Construct(ap1);
+            ap1.GetImovel().Show();
+
+            IBuilder casa2 = casa1.ShallowCopy();
+            casa2.GetImovel().Show();
         }
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            ViewFinalizado vf = new ViewFinalizado();
-            vf.Show();
         }
 
         private void TextBox4_TextChanged(object sender, EventArgs e)
@@ -164,6 +177,11 @@ namespace Construtora
         }
 
         private void ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ViewCriacao_Load(object sender, EventArgs e)
         {
 
         }

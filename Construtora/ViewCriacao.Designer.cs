@@ -251,6 +251,7 @@
             this.Controls.Add(this.comboBox1);
             this.Name = "ViewCriacao";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.ViewCriacao_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
